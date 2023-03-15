@@ -1,0 +1,183 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .navbar{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+  .navbar ul{
+    display: flex;
+    list-style: none;
+  }
+  .navbar ul a{
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 20px;
+    color: blue;
+    text-decoration: none;
+    margin: 25px;
+  }
+  .navbar ul a:hover{
+   text-decoration: underline;
+  }
+  .main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .main-tx{
+ margin: 30px;
+ text-align: center;
+    font-family: 'Rampart One', cursive;
+    color: black;
+  }
+  .main-tx:hover{
+    transform: scale(1.2);
+    transition: 0.3s ease-in-out;
+    
+     }
+  .p1{
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 27px;
+    margin: 8px;
+    font-weight: bold;
+    color: black;
+   
+  }
+  .p2{
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 25px;
+    margin: 12px;
+    text-align: center;
+    font-weight: bold;
+    color: black;
+   
+  }
+  .quote{
+    background-color: #F0EB8D;
+    margin: 10px;
+    
+  }
+  .p3{
+    font-family: 'Crimson Text', serif;
+    font-size: 20px;
+    font-style: italic;
+    margin: 7px;
+    text-align: center;
+ 
+    color: blue;
+  }
+  .p4{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    margin: 5px;
+    text-align: center;
+    
+    color: black;
+  }
+  .icons{
+    margin: 25px;
+  }
+  .sptcy{
+    color: blue;
+  }
+  footer p{
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 16px;
+    margin: 8px;
+   
+    color: black;
+  }
+  .fa {
+    padding: 9px;
+    font-size: 32px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  .email{
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 22px;
+    margin: 8px;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+   
+    color: black;
+  }
+  .twt{
+    text-decoration: underline;
+    color: blue;
+  }
+  .xl3{
+margin: 50px;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+  }
+  .email:hover{
+  text-decoration:underline;
+  color: blue;
+  }
+  
+  @media (max-width: 768px) {
+    .p1{
+      font-size: 19px;
+      text-align: justify;
+       
+      }
+      .main{
+        width:600px;
+
+      }
+    }
+    @media (max-width: 500px) {
+        .p1{
+          font-size: 19px;
+          text-align: justify;
+           
+          }
+          .p2{
+            font-family: 'Share Tech Mono', monospace;
+            font-size: 19px;
+            margin: 12px;
+            text-align: center;
+            font-weight: bold;
+            color: black;
+           
+          }
+          .main{
+            width:375px;
+    
+          }
+        }
